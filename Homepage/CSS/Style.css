@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  color: #003262;
+}
+nav,
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+  background-color: #003262;
+  color: #ffffff;
+}
+
+.header-right-nav {
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
+}
+
+.header-right-nav li {
+  cursor: pointer;
+}
+
+#log-in-btn {
+  border-radius: 6px 6px 6px 6px;
+  background: #1890ff;
+  color: #ffffff;
+  padding: 4px 15px;
+}
+
+.log-in-icon {
+  height: 18px;
+  width: 18px;
+}
+
+header {
+  background-image: url(../Homepage_Images/home-banner-background.jpeg);
+  background-size: cover;
+  height: 678px;
+  padding-left: 7%;
+  padding-top: 15%;
+}
+
+.header-block {
+  width: 540px;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 47px;
+  margin-left: -25px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.header-learn-more {
+  /* padding: 6px 6px 6px 6px; */
+  border: 1px solid #003262;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #003262;
+  width: 140px;
+  height: 40px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.get-ready-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#DGPR-logo {
+  width: 48px;
+}
+
+.GDPR-head {
+  color: #5bab58;
+  font-size: 18px;
+}
+
+.GDPR-text {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.main-section {
+  background-image: url(../Homepage_Images/Group\ 343.svg);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  padding: 2% 7%;
+}
+
+.main-section h3 {
+  margin-top: 40px;
+}
+
+.main-section p {
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 35px;
+  line-height: 34px;
+}
+
+p {
+  color: #595959;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.collaboration-sites {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 36px;
+  column-gap: 30px;
+  max-width: 900px;
+}
+
+.collaboration-sites li {
+  border: 1px solid #003262;
+  width: 289px;
+  height: 149px;
+  border-radius: 9px;
+  list-style: none;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.sites-images {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+
+.sites-border-bottom {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 43px;
+  background: #003262;
+  text-decoration: none;
+  border-radius: 0 0 7px 7px;
+  cursor: pointer;
+}
+
+.sites-border-bottom img {
+  width: 15px;
+}
+
+.sites-border-bottom span {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.guide-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  background: #ffffff;
+  height: 140px;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 9px #00000033;
+}
+.step-btn {
+  border: #003262 solid 1px;
+  background: #ffffff;
+  border-radius: 6px;
+  width: 250px;
+  height: 80px;
+  font-size: 20px;
+}
+
+.step-btn svg {
+  height: 20px;
+}
